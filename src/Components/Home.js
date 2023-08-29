@@ -16,28 +16,23 @@ function Home () {
 
       <div className='container'>  
         <section className='perro'>
-            
-            <articulo><img src = {Imagen}></img></articulo>    
-            <BasicButtons/>
-            <articulo><p>"Siempre cuidalo y respetalo"</p></articulo>
+            <articulo className='hs' ><img src = {Imagen}></img><BasicButtons/></articulo>    
+            <articulo className='ha'><p>"Siempre cuidalo y respetalo"</p></articulo>
         </section>
             
         <section className='perro'>
-            <articulo><p>"Ten, en cuenta sus necesidades"</p></articulo>
-            <ButtonSizes/>
-            <articulo><img src = {Imagene}></img></articulo>
+            <articulo className='ha'><p>"Ten, en cuenta sus necesidades"</p></articulo>
+            <articulo className='hs'><img src = {Imagene}></img><ButtonSizes/></articulo>
         </section>
 
         <section className='perro'>
-            <articulo><p>"Tú compañía es lo que prefieren</p></articulo>
-            <ContainedButtons/>
-            <articulo><img src = {Imagenes}></img></articulo>
+            <articulo className='ha'><p>"Tú compañía es lo que prefieren</p></articulo>
+            <articulo  className='hs'><img src = {Imagenes}></img><ContainedButtons/></articulo>
         </section>
               
         <section className='perro'>
-            <ColorButtons/>
-            <articulo><img src = {Imagenese}></img></articulo>
-            <articulo><p>"Brindale, amor y serás recompensado"</p></articulo>
+            <articulo className='hs'><img src = {Imagenese}></img><ColorButtons/></articulo>
+            <articulo className='ha'><p>"Brindale, amor y serás recompensado"</p></articulo>
         </section>
       </div>  
     </div>

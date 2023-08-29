@@ -8,17 +8,28 @@
 
 .perro{
   width: 100%;
-  height: 40%;
+  height: 500px;
   padding-top: 2%;
   font-size: 40px;
-  list-style: none;
-  display: inline-block;
   display: flex; 
   flex-wrap: wrap;
   align-items: center;
   margin: auto;
 
 }
+
+.hs{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center ;
+  flex-direction: column;
+}
+
+.ha{
+  width: 50%;
+}
+
 .titulo{
   background-color: rgb(0, 68, 255);
 }
@@ -64,3 +75,4 @@ img{
     transform: rotate(360deg);
   }
 }
+
